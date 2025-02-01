@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Покупка геймпасов</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Магазин геймпасов</h1>
+    <div class="gamepasses">
+      <div class="gamepass" id="accelerated_pickaxe">
+        <img src="https://example.com/accelerated_pickaxe.png" alt="Ускоренная кирка">
+        <h2>Ускоренная кирка</h2>
+        <p>Увеличивает добычу за клик на 50%. Стоимость: 500000 монет.</p>
+        <button onclick="purchaseGamepass('accelerated_pickaxe')">Купить</button>
+      </div>
+      <div class="gamepass" id="rich">
+        <img src="https://example.com/rich.png" alt="Богач">
+        <h2>Богач</h2>
+        <p>Увеличивает доход от продажи руды на 25%. Стоимость: 250000 монет.</p>
+        <button onclick="purchaseGamepass('rich')">Купить</button>
+      </div>
+      <div class="gamepass" id="automine">
+        <img src="https://example.com/automine.png" alt="Автодобыча">
+        <h2>Автодобыча</h2>
+        <p>Автоматическая добыча 1 раза в 60 секунд. Стоимость: 100000 монет.</p>
+        <button onclick="purchaseGamepass('automine')">Купить</button>
+      </div>
+      <div class="gamepass" id="bigger_backpack">
+        <img src="https://example.com/bigger_backpack.png" alt="Больше рюкзак">
+        <h2>Больше рюкзак</h2>
+        <p>Увеличивает вместимость портфеля в 2 раза. Стоимость: 75000 монет.</p>
+        <button onclick="purchaseGamepass('bigger_backpack')">Купить</button>
+      </div>
+      <div class="gamepass" id="lucky">
+        <img src="https://example.com/lucky.png" alt="Счастливчик">
+        <h2>Счастливчик</h2>
+        <p>Повышает шанс бонусного события "Удача" до 25%. Стоимость: 100000 монет.</p>
+        <button onclick="purchaseGamepass('lucky')">Купить</button>
+      </div>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
